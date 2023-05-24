@@ -39,6 +39,7 @@ gem "bootsnap", require: false
 
 # converts data to JSON w/ special serializer attributes
 gem 'active_model_serializers'
+gem "jwt"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
